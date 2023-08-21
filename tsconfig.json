@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/lib/utils.js",
+    "app/lib/utils.js",
+    "app/error.tsx",
+    "app/en/coins/[id]/error.tsx",
+    "app/utils/index.tsx",
+    "app/store/store.js",
+    "app/utils/index.ts",
+    "__tests__/CoinRow.test.jsx",
+    "__tests__/About.test.jsx",
+    "__tests__/[id].test.jsx",
+    "__tests__/Loader.test.jsx",
+    "__tests__/Join.test.jsx",
+    "__tests__/Footer.test.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
